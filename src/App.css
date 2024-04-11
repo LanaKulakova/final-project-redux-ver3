@@ -1,0 +1,345 @@
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+nav {
+  background: #1f1f29;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  
+}
+
+.ball {
+  list-style-image: url(ball.png);
+  
+}
+
+.bounceBall{
+  margin-top: 10px;
+}
+
+.textcolor {
+  color: #f9f4f4;
+}
+
+ul {
+  margin: 0 0 0 32px;
+  line-height: 1.5
+  }
+
+  li {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.section {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+}
+
+.containerAbout {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.btn {
+   display: flex;
+  justify-content: space-around;
+  padding: 30px;
+
+}
+
+.buttonstyle {
+  font-weight: bolder;
+  padding: 20px;
+  color: rgb(37, 37, 37);
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(154, 207, 228);
+  border: none;
+  border-radius: 5px;
+  }
+
+.founder {
+  display: flex;
+  justify-content: center;
+}
+
+.photoFounder {
+margin-top: 20px;
+border-radius: 50%;
+}
+
+.parAbout {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+
+.white {
+  color: white;
+}
+
+.coachpic {
+  display: flex;
+  justify-content: center;
+}
+
+.parStaffName {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.parStaffPosition {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.parDescriptionStaff {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  }
+
+  .showMore {
+    font-weight: bolder;
+    padding: 5px;
+    color: rgb(34, 33, 33);
+    font-family: 'Montserrat', sans-serif;
+    background-color:  rgb(221, 213, 213);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .down {
+    background-color: #13131A;
+    color: #F9F4F4;
+    padding: 30px;
+  }
+
+  .calltoaction {
+  display: flex;
+  justify-content: center;
+}
+
+.btnCall {
+  font-weight: bolder;
+  padding: 5px;
+  color: yellow;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(28, 114, 194);
+  border: none;
+  border-radius: 20px;
+  padding: 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+  }
+
+hr {
+  border: white 5px solid;
+}
+
+.sectionContact {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+.parcontact {
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.products {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+}
+
+.product-card {
+
+  padding: 2%;
+
+  flex-grow: 1;
+
+  flex-basis: 16%;
+
+}
+
+
+.contButtons {
+  display: flex;
+
+  justify-content: center;
+}
+
+
+.change {
+
+  background-color: #13131A;
+
+  color: whitesmoke;
+
+  padding: 10px;
+
+  border: none;
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+button {
+
+  margin: 10px;
+
+}
+
+.product-info {
+  margin-left: 65px;
+
+  }
+
+  .parDescriptionStaff {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .treck {
+    margin-left: 20px;
+  }
+
+  .treckOfDay {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .btnTrack {
+    font-weight: bolder;
+    padding: 20px;
+    color: rgb(22, 22, 22);
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(145, 148, 150);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  .hide {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+@media all and (max-width: 800px) {
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+  }
+
+  .link {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #F9F4F4;
+    text-transform: uppercase;
+    
+  }
+  .coverMobile {
+    background-position: center center;
+    width: 400px;
+    height: 300px;
+    margin-left: 30px;
+  
+    }
+
+  .founder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.contButtons {
+  flex-wrap: wrap;
+}
+
+.product-card {
+  margin-left: 30px;
+}
+
+.bounceBall {
+  animation-name: none;
+}
+
+}
+
+@media all and (max-width: 500px) {
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+  }
+
+  .link {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #F9F4F4;
+    text-transform: uppercase;
+    
+  }
+  .coverMobile {
+    background-position: center center;
+    width: 400px;
+    height: 300px;
+  
+    }
+
+  .founder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.contButtons {
+  flex-wrap: wrap;
+}
+
+.product-card {
+  margin-left: 30px;
+}
+
+.bounceBall {
+  animation-name: none;
+}
+
+.section {
+  font-size: 25px;
+}
+
+}
